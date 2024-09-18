@@ -23,7 +23,7 @@
     
   }
 
-  li{
+   ol{
     text-align: center;
   }
   
@@ -35,13 +35,16 @@
     border-radius: 50%;
     padding: 10px;
     margin-bottom: 10px;
-    
+    display: inline;
+    margin-right: 70px;
+    margin-left: 20PX;
   }
   
 
 a{
  text-decoration: none;
  color: blueviolet;
+ 
 }
 
 a:hover{
@@ -51,4 +54,15 @@ a:hover{
 p{
   text-align: center;
 
+}
+
+ul{
+  background-color: beige;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  gap: 30px;
+  
+ 
+ 
 }
